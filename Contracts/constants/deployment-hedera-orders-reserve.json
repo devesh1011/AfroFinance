@@ -1,0 +1,16 @@
+{
+  "network": "hedera-testnet",
+  "timestamp": "2025-10-31T17:58:50.488Z",
+  "deployer": "0xA879eB55AaD088A8a19E06610129d4CDb4f2c99b",
+  "contracts": {
+    "ConfidentialOrders": {
+      "address": "0x2F12CAeE5D2e11c8a517a779541b2f81291cCf73",
+      "agent": "0xA879eB55AaD088A8a19E06610129d4CDb4f2c99b",
+      "usdcToken": "0x0000000000000000000000000000000000068cDa"
+    },
+    "Reserve": {
+      "address": "0x0a15179c67aa929DE2E12da428b5d860b06e4962",
+      "owner": "0xA879eB55AaD088A8a19E06610129d4CDb4f2c99b"
+    }
+  }
+}

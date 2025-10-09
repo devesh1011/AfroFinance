@@ -1,0 +1,12 @@
+{
+  "network": "hedera-testnet",
+  "timestamp": "2025-10-31T18:13:10.736Z",
+  "deployer": "0xA879eB55AaD088A8a19E06610129d4CDb4f2c99b",
+  "token": {
+    "name": "Afro Finance LQD",
+    "symbol": "LQD",
+    "address": "0x2fD841C454EeEd0a4E2a3474dFCadafEe52E8342",
+    "decimals": 18,
+    "owner": "0xA879eB55AaD088A8a19E06610129d4CDb4f2c99b"
+  }
+}
