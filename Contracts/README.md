@@ -1,13 +1,28 @@
-# Sample Hardhat Project
+# AfroFinance Contracts
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Smart contracts for the AfroFinance RWA (Real World Assets) platform built on Ethereum with Hardhat.
 
-Try running some of the following tasks:
+## Overview
+
+This project contains three main contract modules:
+
+- **AfroFinance**: Core trading and market data contracts for asset management and automated order execution
+- **ERC3643**: Compliant tokenization framework for real-world assets with built-in compliance and identity verification  
+- **OnChain-ID**: Decentralized identity management system for KYC/AML compliance
+
+## Quick Start
 
 ```shell
-npx hardhat help
+npm install
+npx hardhat compile
 npx hardhat test
-REPORT_GAS=true npx hardhat test
 npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
+
+## Project Structure
+
+- `contracts/` - Smart contract source files
+- `scripts/` - Deployment and utility scripts
+- `test/` - Contract test suites
+- `abi/` - Contract ABIs for frontend integration
+- `constants/` - Deployment configurations and addresses
