@@ -13,7 +13,6 @@ contract FunctionAssetConsumer is FunctionsClient {
     mapping(bytes32 => bytes) public requestIdToResponse;
     mapping(bytes32 => bytes) public requestIdToError;
 
-    // Supported networks https://docs.chain.link/chainlink-functions/supported-networks
     address constant ROUTER = 0xf9B8fc078197181C841c296C876945aaa425B278; // Base Sepolia
     bytes32 constant DON_ID =
         0x66756e2d626173652d7365706f6c69612d310000000000000000000000000000; // "fun-base-sepolia-1"
